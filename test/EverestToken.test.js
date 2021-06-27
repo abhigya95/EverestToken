@@ -37,9 +37,9 @@ contract("Token Test", async (accounts) => {
         let instance  = this.myToken;
         let totalSupply = await instance.totalSupply();
         expect(instance.balanceOf(deployerAccount)).to.eventually.be.a.bignumber.equal(totalSupply);
-        return expect(instance.transfer(recipient, sendTokens)).to.eventually.be.fulfilled;
-        //expect(instance.balanceOf(deployerAccount)).to.eventually.be.a.bignumber.equal(totalSupply.sub(new BN(sendTokens)));
-        //return expect(instance.balanceOf(recipient)).to.eventually.be.a.bignumber.equal(new BN(sendTokens));
+        expect(instance.transfer(recipient, sendTokens)).to.eventually.be.fulfilled;
+        expect(instance.balanceOf(deployerAccount)).to.eventually.be.a.bignumber.equal(totalSupply.sub(new BN(sendTokens)));
+        return expect(instance.balanceOf(recipient)).to.eventually.be.a.bignumber.equal(new BN(sendTokens));
     }); 
 
 });
