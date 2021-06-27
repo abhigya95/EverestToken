@@ -3031,41 +3031,15 @@
     "version": "0.8.6+commit.11564f7e.Emscripten.clang"
   },
   "networks": {
-    "1337": {
+    "5777": {
       "events": {},
       "links": {},
-      "address": "0xAC7398a475b2De20a8CE0239D6B747f6522Fcb0A",
-      "transactionHash": "0x73bb956c92555fea782a5a6a84bdaf345f8b8ca2e4331b505f419d231764d057"
-    },
-    "5777": {
-      "events": {
-        "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "previousOwner",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "internalType": "address",
-              "name": "newOwner",
-              "type": "address"
-            }
-          ],
-          "name": "OwnershipTransferred",
-          "type": "event"
-        }
-      },
-      "links": {},
-      "address": "0x10e397ee57721DE2fbae3b49a86BC4615BCF032f",
-      "transactionHash": "0xbe184f8ef698030ccc8b82d68d4ec75b5f337bf5e60297d3c63fa6ac8accac33"
+      "address": "0x7EA882A2c0577215CB2a19A791aF3c2EB15265A7",
+      "transactionHash": "0xe1480780772959016885b1dd63699b9f8f8f841057ad04393385c2d6b4bff5f2"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-06-27T16:18:09.385Z",
+  "updatedAt": "2021-06-27T16:27:34.959Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
