@@ -1,5 +1,5 @@
 var EverestToken = artifacts.require("./Everest.sol");
 
 module.exports = async function(deployer){
-    await deployer.deploy(EverestToken, 8850);
+    await deployer.deploy(EverestToken, 10000);
 }
