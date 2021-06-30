@@ -19,6 +19,12 @@ module.exports = {
         return new HDWalletProvider(Mnemonic, "http://127.0.0.1:7545", AccountIndex);
       },
       network_id: 5777
+    },
+    ropsten_infura:{
+      provider: function(){
+        return new HDWalletProvider(Mnemonic, "https://ropsten.infura.io/v3/9d2e5cf4768e45c4bc5bd8f0486eb53c", AccountIndex);
+      },
+      network_id: 5
     }
   },
   compilers:{
